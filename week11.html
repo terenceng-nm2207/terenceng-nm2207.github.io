@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="chartcss/appstyle.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script defer type="text/javascript" src="chartappscripts/main.js">
+        </script>
+        <title>Week 11 Progress</title>
+</head>
+<body>
+<body style="background-color:rgb(242, 223, 205)">
+<article class="reflection"> 
+  <center><h1><b>week 11 progress</b>  </h1> <p></center>
+For week 11, my biggest achievement was using chart.js to code up the main data story of
+my project- 3 graphs representing the median rental cost of 3-Room, 4-Room and 5-Room
+flats in different estates. <p>
+I also made 3 different buttons which can be navigated and clicked on to view each chart. <p>
+Next, I used
+In Week 10's Reflection, TA Wi En gave the feedback to increase the scope of my website, thus
+I will be adding 1 more graph to my page- showing the increase of rent prices over the years
+from 2020 to 2023. I will also be changing the initial rent calculator to a 'financial planning column',
+which will calculate other aspects of financial planning and renting like amount of
+emergency funds required etc.
+
+  </div>
+
+<center><h3>click on the buttons below to see the graphs!</h3></center>
+<center><button id="3room-button">3-Room</button>
+<button id="4room-button">4-Room</button>
+<button id="5room-button">5-Room</button></center>
+
+<div>
+ <center> <canvas id="3room-graph" width="700" height="400"></canvas>
+  <canvas id="4room-graph" width="700" height="400"></canvas>
+  <canvas id="5room-graph" width="700" height="400"></canvas> </center>
+
+<article class="advice">
+    <form name="f1">
+   <center><h2>rent calculator</h2>
+    What's your income? <input type="text" name="income">
+    <br> <p id="rent">The maximum amount you should spend on rent is:</p>
+        <input type="button" button class="button" value="convert" onClick="convertIncome()"> </center> 
+        </form>
+</article>
+</div>
+</body>
+</html>
+
