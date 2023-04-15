@@ -2,75 +2,98 @@
 @import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@500&family=Montserrat:wght@500&display=swap');
 
 html, body {
-    height:190%;
+    height:200%;
     width:98%;
-    background-color: #fff5d4;
-  }
+    background-color: rgb(246, 231, 215)  }
   
 
-  .header1{
-    font-family: 'Montserrat', sans-serif;
-
-  }
+.container{
+text-align: center;
+}
   .header{ 
     font-family: 'Encode Sans SC', sans-serif;
   }
- 
+
   .intro {
   font-family: 'Montserrat', sans-serif;
   margin-left: auto;
   margin-right: auto;
-  width: 40em
+  width: 50em
 }
 .data{
     font-family: 'Montserrat', sans-serif;
-    margin-top: 50px;
+    margin-top: 40px;
   margin-left: auto;
   margin-right: auto;
-  width: 40em
+  width: 50em
   
 }
-.button1{
-    background-color: rgb(241, 216, 178);
-    border: none;
-    font-size: 20px;
-    cursor: pointer;
-    padding: 10px 20px;
-    border-radius: 5px;
 
+#room3-button{
+  background-color: rgba(245, 212, 176, 0.6); 
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+#room3-button:hover {
+  background-color: rgba(245, 212, 176); /* Lighter Blue */
 }
 
-.button2{
-    background-color: rgb(241, 216, 178);
-    border: none;
-    font-size: 20px;
-    cursor: pointer;
-    padding: 10px 20px;
-    border-radius: 5px;
-
+#room4-button{
+  background-color: rgba(245, 212, 176, 0.6); /* Blue */
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
 }
 
-.button3{
-    background-color: rgb(241, 216, 178);
-    border: none;
-    font-size: 20px;
-    cursor: pointer;
-    padding: 10px 20px;
-    border-radius: 5px;
-
-
+#room4-button:hover {
+  background-color: rgba(245, 212, 176); /* Lighter Blue */
 }
 
-.button1:hover {background-color: #f4cd80}
-.button2:hover {background-color: #f4cd80}
-.button3:hover {background-color: #f4cd80}
+#room5-button{
+  background-color: rgba(245, 212, 176, 0.6); /* Blue */
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
 
+#room5-button:hover {
+  background-color: rgba(245, 212, 176); /* Lighter Blue */
+}
+
+
+
+.button {
+  background-color: rgba(150,140,131, 0.6);
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.button:hover{
+  background-color: rgba(150,140,131);
+}
+
+.line{
+  margin-top:20px;
+
+}
 .advice{
 font-family: 'Montserrat', sans-serif;
-margin-top: 80px;
+margin-top: 40px;
   margin-left: auto;
   margin-right: auto;
-  width: 40em
+  width: 50em;
+  text-align:center;
 }
 
 input[type=text], select {
